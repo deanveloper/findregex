@@ -15,4 +15,4 @@ Go to [releases](https://github.com/deanveloper/findregex/releases) and download
 
 ## Use as a library
 
-This is not only a CLI, but a library! To use it as a library, simply run `go get github.com/deanveloper/findregex`, and you can use it as normal. You can view documentation on https://pkg.go.dev/deanveloper/findregex
+This is not only a CLI, but a library! To use it as a library, simply run `go get github.com/deanveloper/findregex`, and you can use it as normal. You can view documentation on https://pkg.go.dev/github.com/deanveloper/findregex
