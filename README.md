@@ -13,6 +13,10 @@ This also allows for pruning directories in a much less confusing fashion than G
 | `-r` | false | Change `-f` and `-x` to take regular expressions instead of comma-separated globs | `-r -f 'year_\d{2,4}.js$' -x '(node_modules|dist)$'` |
 | `-h` | false | Get into the nitty-gritty | `findregex -h` |
 
+# CLI Installation
+
+Go to [releases](https://github.com/deanveloper/findregex/releases) and download the correct binary for your platform, and put the binary somewhere in your `PATH` (ie in `/usr/bin`)
+
 ## Examples
 
  * Find lines which set properties on `window` in javascript files, except in `node_modules`:
@@ -23,10 +27,6 @@ Combine it with other tools for something even more powerful:
    * `findregex -f '*.java' '".*"' | grep -v 'String \w+ = ".*"'` 
 
 Find any strings that aren't constants in your 
-
-## CLI Installation
-
-Go to [releases](https://github.com/deanveloper/findregex/releases) and download the correct binary for your platform, and put the binary somewhere in your `PATH` (ie in `/usr/bin`)
 
 ## Install from source
 
