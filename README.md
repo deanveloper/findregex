@@ -27,7 +27,7 @@ Go to [releases](https://github.com/deanveloper/findregex/releases) and download
 ## Examples
 
  * Find lines which set properties on `window` in javascript files, except in `node_modules`:
-   * `findregex -f '*.js' -x 'node_modules' 'window.\S+\s='
+   * `findregex -f '*.js' -x 'node_modules' 'window.\S+\s='`
 
 Combine it with other tools for something even more powerful:
  * Find string literals that aren't constants in your Java code
